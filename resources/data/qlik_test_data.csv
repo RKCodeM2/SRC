@@ -1,0 +1,4 @@
+_ID,_STATUS,_ENV,,STBUserUUID,T1IndustryUserUUID,T2IndustryUserTravelAgentUUID,T2IndustryUser,T2IndustryUserNoDelegation,T1IndustryUserMultipleDelegation,Username
+P15-Qlik-004,yes,DEMO,,59048c272c014fd49c06b4f0b2190fcc,,,,,,Selenium STB User 4
+U17-Qlik-003,yes,DEMO,,59048c272c014fd49c06b4f0b2190fcc,,,,,,Selenium STB User 4
+P63-Qlik-002,yes,DEMO,,,18da56818e76443a92216c404e75b299,,,,,Selenium Industry T1 User 1

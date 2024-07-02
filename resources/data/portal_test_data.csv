@@ -1,0 +1,23 @@
+_ID,_STATUS,_ENV,,STBAdminUUID,STBUserUUID,STBSubAdminUUID,STBSubAdminTravelAgentsIndustryUUID,T1IndustryAdminUUID,T1IndustryUserUUID,T2IndustryUserUUID,T3IndustryUserUUID,T1IndustrySubAdminUUID,T3IndustrySubAdminHotelUUID,T3IndustrySubAdminNonHotelUUID,T2IndustryUserNOdatacontributedto'TIH'UUID,STBManagementUUID,AdminUsername,Username,STBUserEmail,T1IndustryAdminEmail,T1IndustrySubAdminEmail,Sheet1,Sheet2,Sheet3,glossary,adhocreport
+PTL-INF-TRD-4,yes,DEMO,,,,,,,,,32d4aa20d80740a1bfa4730bd168f0c3,,,,,,,Selenium Industry T3 User 1,,,,Year-To-Date TR by Top Places of Residence,Full-Year TR by Top Places of Residence,Annual TR Comparison,Glossary,
+PTL-INF-TRD-5,yes,DEMO,,,,d63395ee39504388bcf85e2d5d3a56a9,,,,,,,,,,,Selenium STB Sub-Admin 1,,,,,Year-To-Date TR by Top Places of Residence,Full-Year TR by Top Places of Residence,Annual TR Comparison,Glossary,
+PTL-INF-TAD-6,yes,DEMO,,,,,,,18da56818e76443a92216c404e75b299,,,,,,,,,Selenium Industry T1 User 1,,,,TA Analysis - By Time Period,TA Analysis - By Passengers,TA Analysis - Revenue By Service Type,Glossary,Adhoc Report
+PTL-INF-TAD-7,yes,DEMO,,,,,,,,6ac948d0f52d4d7aa1fcfe2e0a01a054,,,,,,,,Selenium Industry T2 User 1,,,,TA Analysis - By Time Period,,,Glossary,
+PTL-INF-TAD-8,yes,DEMO,,,,,14aedd6f2c9145eabf8a844e5b8d5ebc,,,,,,,,,,Selenium STB Sub-Admin 2,,,,,TA Analysis - By Time Period,TA Analysis - By Passengers,TA Analysis - Revenue By Service Type,Glossary,Adhoc Report
+PTL-INF-SBX-9,yes,DEMO,,8731b048202b421d9e6af32f761f88be,,,,,,,,,,,,,Selenium STB User Admin 1,,,s4592605b@yopmail.com,,,,,,
+PTL-INF-SBX-10,yes,DEMO,,8731b048202b421d9e6af32f761f88be,,,,,,,,5a1c36151a354abdadc83b2e7c679010,,,,,Selenium STB User Admin 1,S8035289A S,,,r21.29@yopmail.com,,,,,
+PTL-INF-CAP-11,yes,DEMO,,8731b048202b421d9e6af32f761f88be,59048c272c014fd49c06b4f0b2190fcc,,,,,,,,,,,,Selenium STB User Admin 1,Selenium STB User 4,stan_selenium_stb_user4@yopmail.com,,,,,,,
+PTL-BSE-DDA-12,yes,DEMO,,8731b048202b421d9e6af32f761f88be,c6d8e357cb134669ae15d6a3f09d9fc7,,,,,,,,,,,,Selenium STB User Admin 1,Selenium STB User 2,stan_selenium_stb_user2@yopmail.com,,,,,,,
+PTL-BSE-DDA-13,yes,DEMO,,8731b048202b421d9e6af32f761f88be,3ed29d0e130745f7aeb33b3878244d7a,,,,,,,,,,,,Selenium STB User Admin 1,Selenium STB User 1,stan_selenium_stb_user1@yopmail.com,,,,,,,
+PTL-BSE-DDA-15,yes,DEMO,,8731b048202b421d9e6af32f761f88be,59048c272c014fd49c06b4f0b2190fcc,,,,,,,,,,,,Selenium STB User Admin 1,Selenium STB User 4,stan_selenium_stb_user4@yopmail.com,,,,,,,
+PTL-BSE-DDA-16,yes,DEMO,,8731b048202b421d9e6af32f761f88be,d62aab30b7284d98bc60aa1a79d9b683,,,,,,,,,,,,Selenium STB User Admin 1,Selenium STB User 3,stan_selenium_stb_user3@yopmail.com,,,,,,,
+PTL-INF-TPD-17,yes,DEMO,,,,,,,,6ac948d0f52d4d7aa1fcfe2e0a01a054,,,,,,,,Selenium Industry T2 User 1,,,,,,,,
+PTL-INF-TPD-18,yes,DEMO,,,,,,,,,,,,,3032c1d57fab41f68b3e72e1404c4438,,,Selenium Industry T2 User 2,,,,,,,,
+PTL-BSE-HLD-2,yes,DEMO,,,,,,06b2d0755db04ab7b75d86c91462eac8,,,,,,,,,Selenium Industry T1 Admin 3,,,,,,,,,
+PTL-BSE-HLD-3,yes,DEMO,,,,,,,,80a3f5cc0fda411d818990a0e87118bb,,,,,,,,Selenium Industry T2 User 3,,,,,,,,
+PTL-BSE-HLD-4,yes,DEMO,,,,,,,,,,,83e10ef20131447fb07927e170752372,5e413392122a4aa4a2be81b231f5ce14,,,Selenium Industry T3 Sub-Admin 1,Selenium Industry T3 Sub-Admin 2,,,,,,,,
+PTL-BSE-HLD-5,yes,DEMO,,,,,,7216ca6ba3454f6792f7a5800d002cfc,,,,,,,,,Selenium Industry T1 Admin 2,,,,,,,,,
+PTL-BSE-HLD-6,yes,DEMO,,,,,,,,,,,,,,325d03d78f24433cafe557a1309a7d7f,Selenium STB Management 1,,,,,,,,,
+PTL-INF-HCen-1,yes,DEMO,,,59048c272c014fd49c06b4f0b2190fcc,,,,,,,,,,,,,Selenium STB User 4,,,,,,,,
+PTL-INF-HCen-2,yes,DEMO,,,,,,93082233bd66442ba4e291d1ae1f7bd7,,,,,,,,,Selenium Industry T1 Admin 1,,,,,,,,,
+PTL-INF-HCen-3,yes,DEMO,,,,,,93082233bd66442ba4e291d1ae1f7bd7,,,,,,,,,Selenium Industry T1 Admin 1,,,,,,,,,

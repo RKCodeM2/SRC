@@ -1,0 +1,136 @@
+loc.cpLogin.input.userName = {"locator":["id=Username","css=#Username","name=Username","xpath=//*[@aria-label='username']","xpath=//input[@id='Username']"],"desc":"User name"}
+loc.cpLogin.input.password = {"locator":["id=PasswordValue","css=#PasswordValue","name=PasswordValue","xpath=//input[@id='PasswordValue']"],"desc":"Password"}
+loc.cpLogin.button.signIn = {"locator":["id=submit-signin-local","css=#submit-signin-local","xpath=//button[@id='submit-signin-local']"],"desc":"Sign in"}
+loc.cpHome.button.getStarted = {"locator":[],"desc":"Get Started"}
+loc.cpHome.button.submitPreLodgementApplication = {"locator":["css=.new-conn-app","class=new-conn-app"],"desc":"Submit a Pre-Lodgement application"}
+loc.cpHome.button.startNewConnectionApplication = {"locator":[],"desc":"Start a new connection application"}
+loc.cpHome.button.viewAllServices = {"locator":[],"desc":"View all services"}
+loc.cpApplication.button.subdivision = {"locator":[],"desc":"Subdivision"}
+loc.cpApplication.button.commercialindustrial = {"locator":[],"desc":"Commercial or Industrial"}
+loc.cpApplication.button.multiResidentialUnits = {"locator":[],"desc":"Multi-Residential Units"}
+loc.cpApplication.button.duplex = {"locator":[],"desc":"Duplex"}
+loc.cpApplication.button.standard = {"locator":[],"desc":"Standard"}
+loc.cpAppCommon.button.saveAndExit = {"locator":["id=btnSaveExit","css=#btnSaveExit"],"desc":"Save and Exit"}
+loc.cpAppCommon.button.saveAndNext = {"locator":["id=NextButton","css=#NextButton"],"desc":"Save and Next"}
+loc.cpAppLocation.input.mapAddress = {"locator":["css=[placeholder='Search Address, LotPlan or Application']","class=esri-search__input"],"desc":"Map Address"}
+loc.cpAppLocation.button.mapAddressSearch = {"locator":["css=.esri-search__submit-button","xpath=//button[@class='esri-search__submit-button esri-widget--button']"],"desc":"Map Address Search"}
+loc.cpAppLocation.button.addMapProperty = {"locator":["css=.esri-icon-save","class=esri-icon-save"],"desc":"Add Map Property"}
+loc.cpAppLocation.link.propertyAddress = {"locator":["css=.has-tooltip","class=has-tooltip"],"desc":"Property Address"}
+loc.cpAppLocation.radioButton.haveOtherApprovalsYes = {"locator":["id=uw_otherapproval_1","css=#uw_otherapproval > [value='1']"],"desc":"Do you have other approvals-Yes"}
+loc.cpAppLocation.radioButton.haveOtherApprovalsNo = {"locator":["id=uw_otherapproval_0","css=#uw_otherapproval > [value='0']"],"desc":"Do you have other approvals-No"}
+loc.cpAppLocation.radioButton.holdPreLodgementAdviceYes = {"locator":["id=uw_doesaprelodgementexist_1","css=#uw_doesaprelodgementexist > [value='1']"],"desc":"Do you hold pre-lodgement advice-Yes"}
+loc.cpAppLocation.radioButton.holdPreLodgementAdviceNo = {"locator":["id=uw_doesaprelodgementexist_0","css=#uw_doesaprelodgementexist > [value='0']"],"desc":"Do you hold pre-lodgement advice-No"}
+loc.cpAppLocation.input.preLodgementReference = {"locator":["id=uw_prelodgementreference","css=#uw_prelodgementreference"],"desc":"Enter Pre Lodgement Reference"}
+loc.cpAppLocation.radioButton.haveHigherOrderApprovalYes = {"locator":["id=uw_higherorderapproval_1","css=#uw_higherorderapproval > [value='1']"],"desc":"Do you have higher-order approval-Yes"}
+loc.cpAppLocation.radioButton.haveHigherOrderApprovalNo = {"locator":["id=uw_higherorderapproval_0","css=#uw_higherorderapproval > [value='0']"],"desc":"Do you have higher-order approval-No"}
+loc.cpAppLocation.checkbox.higherOrderApprovalUnitywater = {"locator":["id=uw_approvalunitywater_label","css=#uw_approvalunitywater_label"],"desc":"Higher-order approval-Unitywater"}
+loc.cpAppLocation.checkbox.higherOrderApprovalCouncil = {"locator":["id=uw_approvalcouncil","css=#uw_approvalcouncil"],"desc":"Higher-order approval-Council"}
+loc.cpAppLocation.input.unitywaterHigherOrderReference = {"locator":["id=uw_higherorderapprovalreferencenumber","css=#uw_higherorderapprovalreferencenumber"],"desc":"Unitywater higher-order reference"}
+loc.cpAppLocation.input.councilHigherOrderReference = {"locator":["id=uw_higherordercouncilapprovalreferencenumber","css=#uw_higherordercouncilapprovalreferencenumber"],"desc":"Council higher-order reference"}
+loc.cpAppDevelopment.input.projectName = {"locator":["id=uw_projectname","css=#uw_projectname"],"desc":"Development or Project Name"}
+loc.cpAppDevelopment.select.typeOfDevelopment = {"locator":["id=uw_developmenttype","css=#uw_developmenttype"],"desc":"Type of development"}
+loc.cpAppDevelopment.select.subTypeOfDevelopment = {"locator":["id=uw_developmentsubtype","css=#uw_developmentsubtype"],"desc":"Sub-type of development"}
+loc.cpAppDevelopment.checkbox.connectionRequestNew = {"locator":["id=uw_newconnection","css=#uw_newconnection"],"desc":"Connection Request-New"}
+loc.cpAppDevelopment.checkbox.connectionRequestAlteration = {"locator":["id=uw_alterationtoaconnection","css=#uw_alterationtoaconnection"],"desc":"Connection Request-Alteration"}
+loc.cpAppDevelopment.checkbox.connectionRequestDisconnection = {"locator":["id=uw_disconnection","css=#uw_disconnection"],"desc":"Connection Request-Disconnection"}
+loc.cpAppDevelopment.radioButton.isThisStagedDevelopmentYes = {"locator":["id=uw_isstaged_1","css=#uw_isstaged > [value='1']"],"desc":"Is this a staged development-Yes"}
+loc.cpAppDevelopment.radioButton.isThisStagedDevelopmentNo = {"locator":["id=uw_isstaged_0","css=#uw_isstaged > [value='0']"],"desc":"Is this a staged development-No"}
+loc.cpAppDevelopment.checkbox.serviceTypeWater = {"locator":["id=uw_servicetypewater","css=#uw_servicetypewater"],"desc":"Service Type-Water"}
+loc.cpAppDevelopment.checkbox.serviceTypeSewer = {"locator":["id=uw_servicetypesewer","css=#uw_servicetypesewer"],"desc":"Service Type-Sewer"}
+loc.cpAppDevelopment.checkbox.serviceTypePotable = {"locator":["id=uw_potable","css=#uw_potable"],"desc":"Water Service Type-Potable"}
+loc.cpAppDevelopment.checkbox.serviceTypeRecycled = {"locator":["id=uw_recycled","css=#uw_recycled"],"desc":"Water Service Type-Recycled"}
+loc.cpAppDevelopment.radioButton.alterationToUwNetworkYes = {"locator":["id=uw_alterationnetwork_1","css=#uw_alterationnetwork > [value='1']"],"desc":"Will proposed development require alteration to UW network-Yes"}
+loc.cpAppDevelopment.radioButton.alterationToUwNetworkNo = {"locator":["id=uw_alterationnetwork_0","css=#uw_alterationnetwork > [value='0']"],"desc":"Will proposed development require alteration to UW network-No"}
+loc.cpAppDevelopment.checkbox.requiredUnitywaterNetworkWorksRetriculation = {"locator":["id=uw_reticulation","css=#uw_reticulation"],"desc":"Required Unitywater Network Works-Retriculation"}
+loc.cpAppDevelopment.checkbox.requiredUnitywaterNetworkWorksTrunk = {"locator":["id=uw_trunkinfrastructurerequired","css=#uw_trunkinfrastructurerequired"],"desc":"Required Unitywater Network Works-Trunk"}
+loc.cpAppDevelopment.checkbox.retriculationNetworkWorksExtension = {"locator":["id=uw_uwnwwextension","css=#uw_uwnwwextension"],"desc":"Retriculation Network Works-Extension"}
+loc.cpAppDevelopment.checkbox.retriculationNetworkWorksAlteration = {"locator":["id=uw_uwnwwalteration","css=#uw_uwnwwalteration"],"desc":"Retriculation Network Works-Alteration"}
+loc.cpAppDevelopment.checkbox.retriculationNetworkWorksDecommission = {"locator":["id=uw_uwnwwdecommission","css=#uw_uwnwwdecommission"],"desc":"Retriculation Network Works-Decommission"}
+loc.cpAppDevelopment.checkbox.trunkNetworkWorksExtension = {"locator":["id=uw_trunkextension","css=#uw_trunkextension"],"desc":"Trunk Network Works-Extension"}
+loc.cpAppDevelopment.checkbox.trunkNetworkWorksAlteration = {"locator":["id=uw_trunkalteration","css=#uw_trunkalteration"],"desc":"Trunk Network Works-Alteration"}
+loc.cpAppDevelopment.checkbox.trunkNetworkWorksDecommission = {"locator":["id=uw_trunkdecommission","css=#uw_trunkdecommission"],"desc":"Trunk Network Works-Decommission"}
+loc.cpAppDevelopment.checkbox.retriculationExtensionWater = {"locator":["id=uw_reticulationextensionwater","css=#uw_reticulationextensionwater"],"desc":"Retriculation-Extension-Water"}
+loc.cpAppDevelopment.checkbox.retriculationExtensionSewer = {"locator":["id=uw_reticulationextensionsewerage","css=#uw_reticulationextensionsewerage"],"desc":"Retriculation-Extension-Sewer"}
+loc.cpAppDevelopment.checkbox.retriculationAlterationWater = {"locator":["id=uw_reticulationalterationwater","css=#uw_reticulationalterationwater"],"desc":"Retriculation-Alteration-Water"}
+loc.cpAppDevelopment.checkbox.retriculationAlterationSewer = {"locator":["id=uw_reticulationalterationsewerage","css=#uw_reticulationalterationsewerage"],"desc":"Retriculation-Alteration-Sewer"}
+loc.cpAppDevelopment.checkbox.retriculationDecommissionWater = {"locator":["id=uw_reticulationdecommissionwater","css=#uw_reticulationdecommissionwater"],"desc":"Retriculation-Decommission-Water"}
+loc.cpAppDevelopment.checkbox.retriculationDecommissionSewer = {"locator":["id=uw_reticulationdecommissionsewerage","css=#uw_reticulationdecommissionsewerage"],"desc":"Retriculation-Decommission-Sewer"}
+loc.cpAppDevelopment.checkbox.trunkExtensionWater = {"locator":["id=uw_trunkextensionwater","css=#uw_trunkextensionwater"],"desc":"Trunk-Extension-Water"}
+loc.cpAppDevelopment.checkbox.trunkExtensionSewer = {"locator":["id=uw_trunkextensionsewerage","css=#uw_trunkextensionsewerage"],"desc":"Trunk-Extension-Sewer"}
+loc.cpAppDevelopment.checkbox.trunkAlterationWater = {"locator":["id=uw_trunkalterationwater","css=#uw_trunkalterationwater"],"desc":"Trunk-Alteration-Water"}
+loc.cpAppDevelopment.checkbox.trunkAlterationSewer = {"locator":["id=uw_trunkalterationsewerage","css=#uw_trunkalterationsewerage"],"desc":"Trunk-Alteration-Sewer"}
+loc.cpAppDevelopment.checkbox.trunkDecommissionWater = {"locator":["id=uw_trunkdecommissionwater","css=#uw_trunkdecommissionwater"],"desc":"Trunk-Decommission-Water"}
+loc.cpAppDevelopment.checkbox.trunkDecommissionSewer = {"locator":["id=uw_trunkdecommissionsewerage","css=#uw_trunkdecommissionsewerage"],"desc":"Trunk-Decommission-Sewer"}
+loc.cpAppDevelopment.select.retriculationExtensionWaterDimension = {"locator":["id=uw_uwnwwextensionofwaterdimension","css=#uw_uwnwwextensionofwaterdimension"],"desc":"Retriculation-Extension-Water-Dimension"}
+loc.cpAppDevelopment.select.retriculationExtensionSewerDimension = {"locator":["id=uw_uwnwwextensionofseweragedimension","css=#uw_uwnwwextensionofseweragedimension"],"desc":"Retriculation-Extension-Sewer-Dimension"}
+loc.cpAppDevelopment.select.retriculationAlterationWaterDimension = {"locator":["id=uw_uwnwwalterationofwaterdimension","css=#uw_uwnwwalterationofwaterdimension"],"desc":"Retriculation-Alteration-Water-Dimension"}
+loc.cpAppDevelopment.select.retriculationAlterationSewerDimension = {"locator":["id=uw_uwnwwalterationofseweragedimension","css=#uw_uwnwwalterationofseweragedimension"],"desc":"Retriculation-Alteration-Sewer-Dimension"}
+loc.cpAppDevelopment.select.retriculationDecommissionWaterDimension = {"locator":["id=uw_uwnwwdecommissionofwaterdimension","css=#uw_uwnwwdecommissionofwaterdimension"],"desc":"Retriculation-Decommission-Water-Dimension"}
+loc.cpAppDevelopment.select.retriculationDecommissionSewerDimension = {"locator":["id=uw_uwnwwdecommissionofseweragedimension","css=#uw_uwnwwdecommissionofseweragedimension"],"desc":"Retriculation-Decommission-Sewer-Dimension"}
+loc.cpAppDevelopment.input.trunkExtensionWaterDimension = {"locator":["id=uw_trunkextensionwaterdimension","css=#uw_trunkextensionwaterdimension"],"desc":"Trunk-Extension-Water-Dimension"}
+loc.cpAppDevelopment.input.trunkExtensionSewerDimension = {"locator":["id=uw_trunkextensionseweragedimension","css=#uw_trunkextensionseweragedimension"],"desc":"Trunk-Extension-Sewer-Dimension"}
+loc.cpAppDevelopment.input.trunkAlterationWaterDimension = {"locator":["id=uw_trunkalterationwaterdimension","css=#uw_trunkalterationwaterdimension"],"desc":"Trunk-Alteration-Water-Dimension"}
+loc.cpAppDevelopment.input.trunkAlterationSewerDimension = {"locator":["id=uw_trunkalterationseweragedimension","css=#uw_trunkalterationseweragedimension"],"desc":"Trunk-Alteration-Sewer-Dimension"}
+loc.cpAppDevelopment.input.trunkDecommissionWaterDimension = {"locator":["id=uw_trunkdecommissionwaterdimension","css=#uw_trunkdecommissionwaterdimension"],"desc":"Trunk-Decommission-Water-Dimension"}
+loc.cpAppDevelopment.input.trunkDecommissionSewerDimension = {"locator":["id=uw_trunkdecommissionseweragedimension","css=#uw_trunkdecommissionseweragedimension"],"desc":"Trunk-Decommission-Sewer-Dimension"}
+loc.cpAppDevelopment.radioButton.newEasementRequiredYes = {"locator":["id=uw_neweasementrequired_1","css=#uw_neweasementrequired > [value='1']"],"desc":"Is new easement required-Yes"}
+loc.cpAppDevelopment.radioButton.newEasementRequiredNo = {"locator":["id=uw_neweasementrequired_0","css=#uw_neweasementrequired > [value='0']"],"desc":"Is new easement required-No"}
+loc.cpAppDevelopment.radioButton.structureCloseProximityUwAssetsYes = {"locator":["id=uw_closeproximity_1","css=#uw_dtmrroadcorridor > [value='1']"],"desc":"Structure in close proximity to UW assets-Yes"}
+loc.cpAppDevelopment.radioButton.structureCloseProximityUwAssetsNo = {"locator":["id=uw_closeproximity_0","css=#uw_dtmrroadcorridor > [value='0']"],"desc":"Structure in close proximity to UW assets-No"}
+loc.cpAppDevelopment.radioButton.withinDepartmentOfTmrCorridorYes = {"locator":["id=uw_dtmrroadcorridor_1","css=#uw_dtmrroadcorridor > [value='1']"],"desc":"Within Department of TMR corridor-Yes"}
+loc.cpAppDevelopment.radioButton.withinDepartmentOfTmrCorridorNo = {"locator":["id=uw_dtmrroadcorridor_0","css=#uw_dtmrroadcorridor > [value='0']"],"desc":"Within Department of TMR corridor-No"}
+loc.cpAppDevelopment.radioButton.highRiskActivity = {"locator":["id=uw_riskactivityrating_0","css=#uw_riskactivityrating > [value='127220000']"],"desc":"High Risk Activity"}
+loc.cpAppDevelopment.radioButton.mediumRiskActivity = {"locator":["id=uw_riskactivityrating_1","css=#uw_riskactivityrating > [value='127220001']"],"desc":"Medium Risk Activity"}
+loc.cpAppDevelopment.radioButton.lowRiskActivity = {"locator":["id=uw_riskactivityrating_2","css=#uw_riskactivityrating > [value='127220002']"],"desc":"Low Risk Activity"}
+loc.cpAppDevelopment.radioButton.fireServiceConnectionYesExisting = {"locator":["id=uw_fireserviceconnectionrequired_0","css=#uw_fireserviceconnectionrequired > [value='127220000']"],"desc":"Fire Service Connection-Yes Existing"}
+loc.cpAppDevelopment.radioButton.fireServiceConnectionYesNew = {"locator":["id=uw_fireserviceconnectionrequired_1","css=#uw_fireserviceconnectionrequired > [value='127220001']"],"desc":"Fire Service Connection-Yes New"}
+loc.cpAppDevelopment.radioButton.fireServiceConnectionNotApplicable = {"locator":["id=uw_fireserviceconnectionrequired_2","css=#uw_fireserviceconnectionrequired > [value='127220002']"],"desc":"Fire Service Connection-Not Applicable"}
+loc.cpAppDevelopment.radioButton.fireServicePumpsetYesWithApproval = {"locator":["id=uw_fireservicepumpsetincluded_0","css=#uw_fireservicepumpsetincluded > [value='163630000']"],"desc":"Fire Service pumpset included-Yes with approval"}
+loc.cpAppDevelopment.radioButton.fireServicePumpsetYesWithoutApproval = {"locator":["id=uw_fireservicepumpsetincluded_1","css=#uw_fireservicepumpsetincluded > [value='163630001']"],"desc":"Fire Service pumpset included-Yes without approval"}
+loc.cpAppDevelopment.radioButton.fireServicePumpsetNo = {"locator":["id=uw_fireservicepumpsetincluded_2","css=[value='163630002']"],"desc":"Fire Service pumpset included-No"}
+loc.cpAppStages.button.projectActionsDropdown = {"locator":["css=.fa-chevron-circle-down","class=btn-xs"],"desc":"Project actions dropdown"}
+loc.cpAppStages.button.projectActionsEdit = {"locator":["css=.edit-link","xpath=//a[.='Edit']"],"desc":"Project actions-Edit"}
+loc.cpAppCommon.button.saveAndClose = {"locator":["id=UpdateButton","css=#UpdateButton"],"desc":"Save and Close"}
+loc.cpAppStages.button.demandAllocationCreate = {"locator":["css=[data-ref-rel='uw_appstageusenonres_ApplicationStageNonRes'] > .view-toolbar .btn","xpath=//div[@id='subgrid_nonresidential']//a[contains(.,'Create')]"],"desc":"Demand Allocation Create"}
+loc.cpAppStages.button.infrastructureChargeCreate = {"locator":["css=[data-ref-rel='uw_appstagedev_ApplicationStageDevelopment'] > .view-toolbar .btn","xpath=//div[@id='subgrid_development']//a[contains(.,'Create')]"],"desc":"Infrastructure Charge Create"}
+loc.cpAppStages.button.usesTypeSearch = {"locator":["css=.launchentitylookup","class=launchentitylookup"],"desc":"Uses Type-Search"}
+loc.cpAppStages.input.lookupRecordsSearch = {"locator":["css=[placeholder='Search']","xpath=//input[@class='query form-control']"],"desc":"Lookup records search"}
+loc.cpAppStages.checkbox.lookupRecordsFirstResultItem = {"locator":["css=[data-attribute='uw_name']","class=fa-fw"],"desc":"Lookup records first result item"}
+loc.cpAppStages.button.lookupRecordsSelect = {"locator":["css=.primary","class=primary","xpath=//button[@class='primary btn btn-primary']"],"desc":"Lookup records Select"}
+loc.cpAppStages.input.residentialUsesExisting = {"locator":["id=uw_numberofexistinglots","css=#uw_numberofexistinglots"],"desc":"Residential uses Existing"}
+loc.cpAppStages.input.residentialUsesProposed = {"locator":["id=uw_numberofproposedlots","css=#uw_numberofproposedlots"],"desc":"Residential uses Proposed"}
+loc.cpAppStages.input.residentialUsesBalancedLots = {"locator":["id=uw_numberofproposedbalancelots","css=#uw_numberofproposedbalancelots"],"desc":"Residential uses Balanced lots"}
+loc.cpAppStages.input.nonResidentialUsesExisting = {"locator":["id=uw_numberofexistinggfam2"],"desc":"Non-Residential uses Existing"}
+loc.cpAppStages.input.nonResidentialUsesProposed = {"locator":["id=uw_numberofnewgfam2","xpath=//tr[4]//input[@class='text integer form-control ']"],"desc":"Non-Residential uses Proposed"}
+loc.cpAppCommon.button.modalSaveAndClose = {"locator":["id=InsertButton","css=#InsertButton"],"desc":"Modal Page-Save and Close"}
+loc.cpAppStages.button.infrastructureChargeDevelopmentClassificationSearch = {"locator":["css=[aria-label='Development classification Launch lookup modal']","xpath=//fieldset[1]//tr[1]//button[@class='btn btn-default launchentitylookup']"],"desc":"Infrastructure Charge-Development classification-Search"}
+loc.cpAppStages.checkbox.developmentClassificationNonResidential = {"locator":["css=[aria-label='Select or deselect the row Non-Residential']"],"desc":"Lookup records Non-Residential"}
+loc.cpAppStages.checkbox.developmentClassificationNotApplicable = {"locator":["css=[aria-label='Select or deselect the row Not Applicable']"],"desc":"Lookup records Not Applicable"}
+loc.cpAppStages.checkbox.developmentClassificationResidential = {"locator":["css=[aria-label='Select or deselect the row Residential']"],"desc":"Lookup records Residential"}
+loc.cpAppStages.button.infrastructureChargeDevelopmentGroupSearch = {"locator":["css=[aria-label='Development group Launch lookup modal']","xpath=//fieldset[1]//tr[2]//button[@class='btn btn-default launchentitylookup']"],"desc":"Infrastructure Charge-Development group-Search"}
+loc.cpAppStages.button.infrastructureChargeDevelopmentTypeSearch = {"locator":["css=[aria-label='Development type Launch lookup modal']","xpath=//fieldset[1]//tr[3]//button[@class='btn btn-default launchentitylookup']"],"desc":"Infrastructure Charge-Development type-Search"}
+loc.cpAppStages.input.infrastructureChargeExisting = {"locator":["id=uw_existingquantity","css=#uw_existingquantity"],"desc":"Infrastructure Charge-Existing"}
+loc.cpAppStages.input.infrastructureChargeProposed = {"locator":["id=uw_proposedquantity","css=#uw_proposedquantity"],"desc":"Infrastructure Charge-Proposed"}
+loc.cpAppConsent.radioButton.individualConsent = {"locator":["id=uw_onbehalfof_0","css=[value='127220000'][type='radio']"],"desc":"Individual Consent"}
+loc.cpAppConsent.radioButton.organisationConsent = {"locator":["id=uw_onbehalfof_1","css=[value='127220001'][type='radio']"],"desc":"Organisation Consent"}
+loc.cpAppConsent.input.addressLine = {"locator":["id=uw_addressline","css=#uw_addressline"],"desc":"Address Line"}
+loc.cpAppConsent.input.suburb = {"locator":["id=uw_suburb","css=#uw_suburb"],"desc":"Suburb"}
+loc.cpAppConsent.select.state = {"locator":["id=uw_state","css=#uw_state"],"desc":"State"}
+loc.cpAppConsent.input.postcode = {"locator":["id=uw_postcode","css=#uw_postcode"],"desc":"Postcode"}
+loc.cpAppConsent.input.contactName = {"locator":["id=uw_developercontactname","css=#uw_developercontactname"],"desc":"Contact Name"}
+loc.cpAppConsent.input.contactNumber = {"locator":["id=uw_contactmobile","css=#uw_contactmobile"],"desc":"Contact Number"}
+loc.cpAppConsent.input.contactEmail = {"locator":["id=uw_contactemail","css=#uw_contactemail"],"desc":"Contact Email"}
+loc.cpAppConsent.radioButton.willLandBeAccessedYes = {"locator":["id=uw_landaccessed_1","css=#uw_landaccessed > [value='1']"],"desc":"Will land be accessed-Yes"}
+loc.cpAppConsent.radioButton.willLandBeAccessedNo = {"locator":["id=uw_landaccessed_0","css=#uw_landaccessed > [value='0']"],"desc":"Will land be accessed-No"}
+loc.cpAppConsent.radioButton.willEasementBeInvolvedYes = {"locator":["id=uw_easementinvolved_1","css=#uw_easementinvolved > [value='1']"],"desc":"Will an easement be involved-Yes"}
+loc.cpAppConsent.radioButton.willEasementBeInvolvedNo = {"locator":["id=uw_easementinvolved_0","css=#uw_easementinvolved > [value='0']"],"desc":"Will an easement be involved-No"}
+loc.cpAppConsent.input.abn = {"locator":["id=uw_abnacn","css=#uw_abnacn"],"desc":"ABN"}
+loc.cpAppAttachments.button.uploadMoreDocuments = {"locator":["css=.create-action","xpath=//a[.='Upload More Documents']"],"desc":"Upload More Documents"}
+loc.cpAppAttachments.input.documentReason = {"locator":["id=uw_reason","css=#uw_reason"],"desc":"Document Reason"}
+loc.cpAppAttachments.select.documentType = {"locator":["id=uw_documenttype","css=#uw_documenttype"],"desc":"Document Type"}
+loc.cpAppAttachments.input.documentTitle = {"locator":["id=uw_name","css=#uw_name"],"desc":"Document Title"}
+loc.cpAppAttachments.button.documentContinue = {"locator":["id=InsertButton","css=#InsertButton"],"desc":"Document Continue"}
+loc.cpAppAttachments.button.addFile = {"locator":["css=.btn.add-file","xpath=//a[contains(.,'Add file')]"],"desc":"Add file"}
+loc.cpAppAttachments.button.chooseFile = {"locator":["css=[name='file']","name=file","xpath=//input[@name='file']"],"desc":"Choose file"}
+loc.cpAppAttachments.checkbox.overwriteExistingFiles = {"locator":["css=[name='overwrite']","name=overwrite","xpath=//input[@name='overwrite']"],"desc":"Overwrite existing files"}
+loc.cpAppAttachments.button.addUploadedFiles = {"locator":["css=.primary[aria-label='Add files']","xpath=//button[.='Add files']"],"desc":"Add uploaded files"}
