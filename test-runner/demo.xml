@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sause Demo Test Suite" verbose="0" parallel="none" thread-count="1">
+  <listeners>
+    <!--    <listener class-name="com.ahq.listeners.invokedMethodListener"/>-->
+    <listener class-name="com.ahq.listeners.testListener"/>
+  </listeners>
+  <test name="Demo Tests" enabled="true" preserve-order="true">
+    <parameter name="log4j.logger.freemarker.cache" value="INFO, CONSOLE"/>
+    <parameter name="exec.name" value="Config-1 Execution 1"/>
+    <parameter name="exec.index" value="1"/>
+    <parameter name="env.code" value="SIT"/>
+    <parameter name="env.resources" value="resources;environment-config/SIT;execution-config/SIT"/>
+    <parameter name="include" value="{'TestCaseId':['PTL-INF-SBX-10']}"/>
+    <classes>
+      <class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory2"/>
+    </classes>
+  </test>
+</suite>
